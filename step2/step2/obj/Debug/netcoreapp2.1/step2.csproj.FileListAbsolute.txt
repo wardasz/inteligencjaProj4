@@ -1,0 +1,11 @@
+C:\Users\wardasz\source\repos\step2\step2\bin\Debug\netcoreapp2.1\step2.deps.json
+C:\Users\wardasz\source\repos\step2\step2\bin\Debug\netcoreapp2.1\step2.runtimeconfig.json
+C:\Users\wardasz\source\repos\step2\step2\bin\Debug\netcoreapp2.1\step2.runtimeconfig.dev.json
+C:\Users\wardasz\source\repos\step2\step2\bin\Debug\netcoreapp2.1\step2.dll
+C:\Users\wardasz\source\repos\step2\step2\bin\Debug\netcoreapp2.1\step2.pdb
+C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.csprojAssemblyReference.cache
+C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.csproj.CoreCompileInputs.cache
+C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.AssemblyInfoInputs.cache
+C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.AssemblyInfo.cs
+C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.dll
+C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.pdb
