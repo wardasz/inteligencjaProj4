@@ -15,9 +15,9 @@ namespace step2
         static void Main(string[] args)
         {
             //wersja pc
-            string text = System.IO.File.ReadAllText(@"D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\testowy.txt");
+            string text = System.IO.File.ReadAllText(@"D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\oczyszczony.txt");
             //wersja laptop
-            //string text = System.IO.File.ReadAllText(@"D:\studia\magisterka\sem1\inteligencja\proj4\testowy.txt");
+            //string text = System.IO.File.ReadAllText(@"D:\studia\magisterka\sem1\inteligencja\proj4\oczyszczony.txt");
             string[] words = text.Split(' ');
 
             
