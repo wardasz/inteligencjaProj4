@@ -9,3 +9,14 @@ C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.Assembly
 C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.AssemblyInfo.cs
 C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.dll
 C:\Users\wardasz\source\repos\step2\step2\obj\Debug\netcoreapp2.1\step2.pdb
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.deps.json
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.runtimeconfig.json
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.runtimeconfig.dev.json
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.dll
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.pdb
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.csprojAssemblyReference.cache
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.csproj.CoreCompileInputs.cache
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.AssemblyInfoInputs.cache
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.AssemblyInfo.cs
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.dll
+D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.pdb

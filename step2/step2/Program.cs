@@ -7,20 +7,16 @@ namespace step2
     class Program
     {
         static List<slowo> slowa = new List<slowo>();
-        static List<dziedzina> dziedziny = new List<dziedzina>();
-        static string[] alizm = new string[] { "ala" };
-        static string[] kotyzm = new string[] { "kot" };
-        static string[] posiadanie = new string[] { "ma" };
+        static List<dziedzina> dziedziny = new List<dziedzina>();       
 
         static void Main(string[] args)
         {
+            utwozDziedziny();
             //wersja pc
             string text = System.IO.File.ReadAllText(@"D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\oczyszczony.txt");
             //wersja laptop
             //string text = System.IO.File.ReadAllText(@"D:\studia\magisterka\sem1\inteligencja\proj4\oczyszczony.txt");
             string[] words = text.Split(' ');
-
-            
 
             foreach(string s in words)
             {
@@ -40,25 +36,16 @@ namespace step2
                 Console.WriteLine(s.dajSlowo() + " " + s.dajIle());
             }
 
-            dziedzina tmp;
-            int alizmI = porownaj(alizm);
-            tmp = new dziedzina("alizm", alizmI);
-            dziedziny.Add(tmp);
-            int kotyzmI = porownaj(kotyzm);
-            tmp = new dziedzina("kotyzm", kotyzmI);
-            dziedziny.Add(tmp);
-            int posiadanieI = porownaj(posiadanie);
-            tmp = new dziedzina("posiadanie", posiadanieI);
-            dziedziny.Add(tmp);
-
-            Console.WriteLine("Alizm tekstu równa się: " + alizmI);
-            Console.WriteLine("Kotyzm tekstu równa się: " + kotyzmI);
-            Console.WriteLine("Posiadanie tekstu równa się: " + posiadanieI);
-
-            dziedzina winer = new dziedzina("nicosc", 0);
             foreach(dziedzina d in dziedziny)
             {
-                if (d.dajMoc() > winer.dajMoc()) { winer = d; }
+                d.porownaj(slowa);
+            }
+
+            dziedzina winer = new dziedzina("nicosc", new string[] { "pustka"});
+            foreach(dziedzina d in dziedziny)
+            {
+                Console.WriteLine("Artykół zawieraz " + d.dajZbieznosc() + " słów z dziedziny " + d.dajNazwe());
+                if (d.dajZbieznosc() > winer.dajZbieznosc()) { winer = d; }
             }
 
             Console.WriteLine("Najprawdopodobniej artykuł należy do kategorii " + winer.dajNazwe());
@@ -67,22 +54,21 @@ namespace step2
             Console.ReadKey();
         }
 
-        public static int porownaj(string[] lista)
+
+        public static void utwozDziedziny()
         {
-            int wynik = 0;
-
-            foreach(string s in lista)
-            {
-                slowo sl = slowa.Select(n => n).Where(x => x.dajSlowo() == s).FirstOrDefault();
-                if (sl != null)
-                {
-                    wynik += sl.dajIle();
-                }
-            }
-            return wynik;
+            string[] tmp;
+            dziedzina TMP;
+            tmp = new string[]{ "ala"};
+            TMP = new dziedzina("alizm", tmp);
+            dziedziny.Add(TMP);
+            tmp = new string[] { "kot" };
+            TMP = new dziedzina("kotyzm", tmp);
+            dziedziny.Add(TMP);
+            tmp = new string[] { "ma" };
+            TMP = new dziedzina("posiadanie", tmp);
+            dziedziny.Add(TMP);
         }
-
-
 
     }
 }

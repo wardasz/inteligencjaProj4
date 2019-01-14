@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace step2
@@ -7,12 +8,14 @@ namespace step2
     class dziedzina
     {
         private string nazwa;
-        private int moc;
+        private string[] klucze;
+        private int zbieznosc;
 
-        public dziedzina(string a, int b)
+        public dziedzina(string a, string[] b)
         {
             nazwa = a;
-            moc = b;
+            klucze = b;
+            zbieznosc = 0;
         }
 
         public string dajNazwe()
@@ -20,9 +23,21 @@ namespace step2
             return nazwa;
         }
 
-        public int dajMoc()
+        public int dajZbieznosc()
         {
-            return moc;
+            return zbieznosc;
+        }
+
+        public void porownaj(List<slowo> slowa)
+        {
+            foreach (string k in klucze)
+            {
+                slowo s = slowa.Select(n => n).Where(x => x.dajSlowo() == k).FirstOrDefault();
+                if (s != null)
+                {
+                    zbieznosc += s.dajIle();
+                }
+            }
         }
     }
 }
