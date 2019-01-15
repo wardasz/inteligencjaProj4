@@ -1,6 +1,57 @@
-fileName <- 'D:/studia/magisterka/sem1/inteligencja/proj4/inteligencjaProj4/brudny.txt'
-tekst <- readChar(fileName, file.info(fileName)$size)
-rekst
+//podanie ścieżki dostępu - górna wersja na pc, dolna na lapka
+wejscie <- 'D:/studia/magisterka/sem1/inteligencja/proj4/inteligencjaProj4/brudny.txt'
+wejscie <- 'D:/studia/sem1/inteligencja/proj4/inteligencjaProj4/brudny.txt'
+
+//zassanie tekstu
+tekst <- readChar(wejscie, file.info(wejscie)$size)
+
+//wypisanie tekstu
+writeLines(as.character(tekst))
+
+install.packages("tm")
+library(tm)
+
+//usuwanie interpunkcji
+tekst <- removePunctuation(tekst)
+//usuwanie cyfr
+tekst <- removeNumbers(tekst)
+//zmiana dyżych liter na małe
+tekst <- tolower(tekst)
+//usuwanie śmieciowych słów
+tekst <- removeWords(tekst, stopwords("english"))
+tekst <- removeWords(tekst, "made")
+tekst <- removeWords(tekst, "can")
+tekst <- removeWords(tekst, "make")
+tekst <- removeWords(tekst, "use")
+tekst <- removeWords(tekst, "used")
+tekst <- removeWords(tekst, "like")
+tekst <- removeWords(tekst, "else")
+tekst <- removeWords(tekst, "end")
+tekst <- removeWords(tekst, "give")
+tekst <- removeWords(tekst, "gave")
+tekst <- removeWords(tekst, "also")
+tekst <- removeWords(tekst, "next")
+tekst <- removeWords(tekst, "often")
+tekst <- removeWords(tekst, "rare")
+tekst <- removeWords(tekst, "recently")
+
+//usuwanie końcówek flekcyjnych-potestować czy warto, mam wrażenie że nie!
+tekst <- stemDocument(tekst, language = "english") 
+
+//podanie ścieżki dostępu - górna wersja na pc, dolna na lapka
+wyjscie <- 'D:/studia/magisterka/sem1/inteligencja/proj4/inteligencjaProj4/oczyszczony.txt'
+wyjscie <- 'D:/studia/sem1/inteligencja/proj4/inteligencjaProj4/oczyszczony.txt'
+//zapisanie tekstu do pliku
+write(tekst, wyjscie)
+
+
+
+
+
+
+
+
+
 
 
 

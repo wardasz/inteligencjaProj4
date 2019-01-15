@@ -20,3 +20,14 @@ D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\D
 D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.AssemblyInfo.cs
 D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.dll
 D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.pdb
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.deps.json
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.runtimeconfig.json
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.runtimeconfig.dev.json
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.dll
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\bin\Debug\netcoreapp2.1\step2.pdb
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.csprojAssemblyReference.cache
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.csproj.CoreCompileInputs.cache
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.AssemblyInfoInputs.cache
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.AssemblyInfo.cs
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.dll
+D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\step2\step2\obj\Debug\netcoreapp2.1\step2.pdb

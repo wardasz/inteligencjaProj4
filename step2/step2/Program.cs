@@ -13,9 +13,9 @@ namespace step2
         {
             utwozDziedziny();
             //wersja pc
-            string text = System.IO.File.ReadAllText(@"D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\oczyszczony.txt");
+            //string text = System.IO.File.ReadAllText(@"D:\studia\magisterka\sem1\inteligencja\proj4\inteligencjaProj4\oczyszczony.txt");
             //wersja laptop
-            //string text = System.IO.File.ReadAllText(@"D:\studia\magisterka\sem1\inteligencja\proj4\oczyszczony.txt");
+            string text = System.IO.File.ReadAllText(@"D:\studia\sem1\inteligencja\proj4\inteligencjaProj4\oczyszczony.txt");
             string[] words = text.Split(' ');
 
             foreach(string s in words)
