@@ -1,0 +1,6 @@
+fileName <- 'D:/studia/magisterka/sem1/inteligencja/proj4/inteligencjaProj4/brudny.txt'
+tekst <- readChar(fileName, file.info(fileName)$size)
+rekst
+
+
+
