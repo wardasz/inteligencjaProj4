@@ -1,1 +1,11 @@
-ala ma kota kot ma ale
+   common sense   term  graph   ordered pair g  v e comprising  set v  vertices  nodes  points together   set e  edges  arcs  lines   element subsets  v ie  edge  associated  two vertices   association takes  form   unordered pair comprising  two vertices  avoid ambiguity  type  graph may  described precisely  undirected  simple
+
+ senses  graph stem  different conceptions   edge set  one  generalized notion v   set together   relation  incidence  associates two vertices   edge  another generalized notion e   multiset  unordered pairs   necessarily distinct vertices many authors call  type  object  multigraph  pseudograph
+
+   variants  others  described  fully 
+
+ vertices belonging   edge  called  ends   vertices   edge  vertex may exist   graph   belong   edge
+
+v  e  usually taken   finite  many   wellknown results   true   rather different  infinite graphs  many   arguments fail   infinite case  order   graph  v   number  vertices  size   graph  e  number  edges  degree  valency   vertex   number  edges  connect     edge  connects  vertex    loop  counted twice
+
+  edge x y graph theorists usually   somewhat shorter notation xy 
